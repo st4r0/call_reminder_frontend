@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "call-reminder-frontend"
+version = "0.1.0"
+description = ""
+authors = ["st4r0 <rs94@gmx.de>"]
+readme = "README.md"
+packages = [{include = "call_reminder_frontend"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+kivy = "^2.1.0"
+pandas = "^1.5.1"
+kivymd = "^1.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
